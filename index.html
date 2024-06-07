@@ -241,6 +241,7 @@
 
 
     /* Footer */
+/* Footer */
 .w3l-footer9 .footer-inner-main {
     display: flex;
     flex-direction: column;
@@ -248,9 +249,9 @@
 
 .footer-hny-grids {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column; /* Change to column for mobile */
+    align-items: center; /* Center items horizontally */
+    gap: 10px; /* Add some space between elements */
 }
 
 .footer-hny-grids .sub-one-left {
@@ -307,6 +308,7 @@
 .footer-w3list li a:hover {
     text-decoration: underline;
 }
+
 
 </style>
 
@@ -377,7 +379,7 @@
         <section class="footer-inner-main py-5">
             <div class="container py-md-4">
                 <div class="footer-hny-grids sub-columns align-items-center">
-                    <div class="sub-one-left d-flex align-items-center mr-auto">
+                    <div class="sub-one-left d-flex align-items-center">
                         <h2 class="mb-0"><a class="navbar-brand" href="index.html">
                             <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height: 40px;">
                         </a></h2>
@@ -401,6 +403,7 @@
                 </div>
             </div>
         </section>
+        
     
         <!-- Js scripts -->
         <!-- move top -->
